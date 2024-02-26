@@ -1,0 +1,37 @@
+API: hàm để thực thi chức năng
+url API: bắt đầu với /api: không có apply template
+
+sử dụng sitemesh:
+b1: import thư viện
+b2: tạo 1 file decorators.xml
+b3: tạo 1 filter trong web.xml lắng nghe được file decorators.xml
+
+
+sitemesh decorator: 
+filter URL
+- admin -> apply giao diện admin
+- apply giao diện web
+- apply giao diện
+ví dụ: /api
+
+API
+model: trung gian giữa client và server trong mô hình MVC
+
+I simply put an image in root directory folder. For example C:\Users\d0763\Documents\image. Now I want to access that image from browser through HTTP (like http://localhost:8080/...). My Tomcat server in running in Eclipse on 8080 port.this is my main project path D:\JavaBE\new-jdbc. Am I able to access that image through HTTP method?.
+- No, you won’t be able to access the image through HTTP if it’s stored outside of your web application’s directory. You’ll need to move the image to a location within your web application’s directory, such as D:\JavaBE\new-jdbc\WebContent, and then you can access it through HTTP using a URL like http://localhost:8080/new-jdbc/image.
+
+Tổng số page dựa trên 2 yếu tố 
+1. Tổng số item có trong db
+2. Tổng item hiển thị trên 1 trang
+
+sort=title,desc (resfullApi best practice)
+
+paging and sorting cho news
+/admin-news?page=1&maxPageItem=5&sort=title,desc
+/admin-news?page=2&limit=4
+/admin-category?page=1&maxPageItem=10&sort=category,asc
+/admin-comment?page=4&maxPageItem=8
+
+
+
+Servlet weld

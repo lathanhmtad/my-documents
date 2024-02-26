@@ -1,0 +1,19 @@
+mvn clean install: hỗ trợ biên dịch ra gói ... sử dụng maven
+
+- clean: remove file gói cũ đi (jar,..) cứ mỗi lần cập nhập code mới thì sẽ hỗ trợ xóa file cũ đi và install file mới vào
+
+@RestController = @Controller + @ResponseBody
+@PostMapping = @RequestMapping + method
+
+spring data jpa không phụ thuộc vào database
+
+2 công việc khi làm việc với spring data jpa:
+	1. gọi spring data jpa
+	2. khai báo mysql connector trong spring boot 
+
+JDBC -> JPA -> Spring data JPA
+
+findOne 
+findOneBy
+findBy
+findAll
